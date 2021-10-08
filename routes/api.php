@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/products', 'ProductController@get');
+Route::get('/product/{id}', 'ProductController@getById');
 
 Route::post('/product', 'ProductController@post');
 
